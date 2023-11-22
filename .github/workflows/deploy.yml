@@ -13,9 +13,6 @@ jobs:
      uses: actions/setup-python@v3
      with:
        python-version: 3.9
-   - name: Install Dependencies
-     run: |
-       pip install -r requirements.txt  # If you have any dependencies
    - name: Run Python Script
      run: python factorial.py
    - name: Setup Terraform
