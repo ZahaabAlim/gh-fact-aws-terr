@@ -17,4 +17,4 @@ else:
    user_input = int(sys.argv[1])
    # Calculate and print the factorial
    result = calculate_factorial(user_input)
-   print(f"The factorial of {user_input} is: {result}")
+   print(f"The factorial for {user_input} is: {result}")
